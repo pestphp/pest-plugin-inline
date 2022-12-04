@@ -1,5 +1,5 @@
 {
-    "name": "pestphp/pest-plugin-template",
+    "name": "pestphp/pest-plugin-inline",
     "description": "My awesome plugin",
     "keywords": [
         "php",
@@ -7,24 +7,22 @@
         "pest",
         "unit",
         "test",
-        "testing",
         "plugin"
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
-        "pestphp/pest": "^2.0.0",
-        "pestphp/pest-plugin": "^2.0.0"
+        "php": "^8.1"
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
+            "Pest\\Inline\\": "src/"
         },
         "files": [
             "src/Autoload.php"
         ]
     },
     "require-dev": {
+        "pestphp/pest": "^2.0.0",
         "pestphp/pest-dev-tools": "^2.0.0"
     },
     "minimum-stability": "dev",

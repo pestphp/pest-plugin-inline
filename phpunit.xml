@@ -23,12 +23,14 @@
 >
   <testsuites>
     <testsuite name="default">
+      <directory suffix=".php">./src</directory>
       <directory suffix=".php">./tests</directory>
     </testsuite>
   </testsuites>
   <coverage>
     <include>
       <directory suffix=".php">./src</directory>
+      <directory suffix=".php">./tests</directory>
     </include>
   </coverage>
 </phpunit>
