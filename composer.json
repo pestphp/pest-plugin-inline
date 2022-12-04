@@ -1,6 +1,6 @@
 {
     "name": "pestphp/pest-plugin-inline",
-    "description": "My awesome plugin",
+    "description": "The Pest Inline Plugin",
     "keywords": [
         "php",
         "framework",
